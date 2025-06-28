@@ -273,30 +273,33 @@
             <div class="p-5 p-md-5 rounded shadow" style="background-color: rgba(255, 255, 255, 0.377)">
                 <h2 class="fw-bold text-dark mb-4 text-center">Certifications</h2>
                 <div class="row g-4">
-
                     <!-- Certified Bookkeeper -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card gradient-yellow shadow-sm h-100 p-3">
                             <h6 class="fw-bold mb-1">Certified Bookkeeper</h6>
                             <small class="text-muted d-block">National Institute of Accounting Technicians</small>
-                            <small class="text-dark">August 2024 – Present</small>
+                            <small class="text-dark d-block mb-2">August 2024 – Present</small>
+                            <button class="btn btn-sm btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#modalCB">View Certificate</button>
                         </div>
                     </div>
-
                     <!-- Civil Service -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card gradient-yellow shadow-sm h-100 p-3">
                             <h6 class="fw-bold mb-1">Civil Service – Professional Passer</h6>
-                            <small class="text-dark">November 2023</small>
+                            <small class="text-dark d-block mb-2">November 2023</small>
+                            <button class="btn btn-sm btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#modalCS">View Certificate</button>
                         </div>
                     </div>
-
                     <!-- EF SET C2 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card gradient-yellow shadow-sm h-100 p-3">
                             <h6 class="fw-bold mb-1">EF SET C2 Proficient</h6>
                             <small class="text-muted d-block">EF Standard English Test</small>
-                            <small class="text-dark">December 2023</small>
+                            <small class="text-dark d-block mb-2">December 2023</small>
+                            <button class="btn btn-sm btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#modalEF">View Certificate</button>
                         </div>
                     </div>
                 </div>
@@ -419,6 +422,34 @@
         </div>
     </footer>
     <!-- Footer End -->
+
+
+    <!-- Certified Bookkeeper Modal -->
+    <div class="modal fade" id="modalCB" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <img src="../img/bookkeeper.jpg" alt="Certified Bookkeeper" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+
+    <!-- Civil Service Modal -->
+    <div class="modal fade" id="modalCS" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <img src="../img/cse.jpg" alt="Civil Service" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+
+    <!-- EF SET Modal -->
+    <div class="modal fade" id="modalEF" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <img src="../img/efset.jpg" alt="EF SET C2" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
