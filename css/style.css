@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Figtree', sans-serif;
+  background-size: 200% 200%; /* Reduced from 400% to 200% */
+  animation: animateBackground 3s ease-in-out infinite;
+  min-height: 100vh;
+}
+
+@keyframes animateBackground {
+  0% {
+    background-position: 100% 100%;
+  }
+  50% {
+    background-position: 95% 95%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  body {
+    background-size: 150% 150%;
+    background-position: 90% 100%; /* Shift it a bit more visible on mobile */
+  }
+}
+
+.navbar-gradient {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.322);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.nav-link {
+  color: #333 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f5b700 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.btn-mustard {
+  background-color: #f5b800b7;
+  color: #ffffff; /* Dark navy text for contrast */
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-mustard:hover {
+  background-color: #d9a100;
+  color: #fff;
+}
+
+.card.gradient-yellow {
+  background:#f5b800b7;;
+  border: none;
+  color: #333;
+  transition: transform 0.1s ease;
+}
+
+.card.gradient-yellow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card .text-muted {
+  color: #000000 !important;
+}
+
+.card button.btn {
+  /* border-color: #4B0000; */
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.322);
+}
+
+.card button.btn:hover {
+  background-color: #ffd900c4;
+  color: white;
+}
+
+.container{
+    width: 100% !important;
+}
